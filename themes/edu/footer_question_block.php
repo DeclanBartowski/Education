@@ -1,0 +1,1 @@
+<?=do_shortcode('[contact-form-7 id="316" html_class="questions" title="Ещё вопросы?"]')?>

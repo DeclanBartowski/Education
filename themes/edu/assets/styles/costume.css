@@ -1,0 +1,60 @@
+#wpcf7-f315-o2, .tq_sticky_form #wpcf7-f317-o2, .tq_sticky_form .wpcf7{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 100px;
+    height: auto!important;
+}
+.form_pick_education .wpcf7-list-item input,.form_calculate_education .wpcf7-list-item input, .hidden_files,.hidden_input{
+display: none;
+}
+.form_pick_education label, .form_calculate_education label{
+    cursor: pointer;
+}
+.form_pick_education .wpcf7-list-item{
+    border: 1px solid #282828;
+    border-radius: 40px;
+    padding: 5px 11px;
+    margin:0 4px 16px 0;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    cursor: pointer;
+}
+.form_calculate_education .wpcf7-list-item{
+    width: 100%;
+    border: 1px solid #282828;
+    border-radius: 4px;
+    padding: 5px 11px;
+    transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    margin: 0 0 16px 0;
+}
+.form_pick_education .wpcf7-list-item:hover,.form_calculate_education .wpcf7-list-item:hover {
+    color: #fff;
+    cursor: pointer;
+}
+.form_pick_education .wpcf7-list-item-label,.form_calculate_education .wpcf7-list-item-label{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: .01em;
+}
+.form_pick_education .wpcf7-list-item.selected,.form_calculate_education .wpcf7-list-item.selected {
+    color: #fff;
+}
+.wpcf7-list-item.last{
+    margin-right: 0;
+}
+.wpcf7-form-control.wpcf7-radio{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.block_submitDocuments .block.last {
+    max-width: 100%;
+    margin-bottom: 48px;
+}
+
+
+

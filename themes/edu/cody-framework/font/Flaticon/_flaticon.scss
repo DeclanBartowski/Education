@@ -1,0 +1,109 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/12/2017 08:39
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-draw:before { content: "\f100"; }
+.flaticon-percentage:before { content: "\f101"; }
+.flaticon-ruler:before { content: "\f102"; }
+.flaticon-star:before { content: "\f103"; }
+.flaticon-calculator-with-six-buttons:before { content: "\f104"; }
+.flaticon-old-handphone:before { content: "\f105"; }
+.flaticon-web:before { content: "\f106"; }
+.flaticon-arrows-1:before { content: "\f107"; }
+.flaticon-arrows:before { content: "\f108"; }
+.flaticon-search:before { content: "\f109"; }
+.flaticon-battery:before { content: "\f10a"; }
+.flaticon-rectangular-shape-with-an-outline:before { content: "\f10b"; }
+.flaticon-musical-note:before { content: "\f10c"; }
+.flaticon-wheel:before { content: "\f10d"; }
+.flaticon-briefcase-outline-symbol:before { content: "\f10e"; }
+.flaticon-new-email-envelope-outline-symbol:before { content: "\f10f"; }
+.flaticon-menu-1:before { content: "\f110"; }
+.flaticon-bars-graphic:before { content: "\f111"; }
+.flaticon-photo-camera:before { content: "\f112"; }
+.flaticon-rewind-circular-button:before { content: "\f113"; }
+.flaticon-dollar-symbol:before { content: "\f114"; }
+.flaticon-fast-forward-circular-button:before { content: "\f115"; }
+.flaticon-clock:before { content: "\f116"; }
+.flaticon-pause-circular-button:before { content: "\f117"; }
+.flaticon-alarm:before { content: "\f118"; }
+.flaticon-play-circular-button:before { content: "\f119"; }
+.flaticon-sun:before { content: "\f11a"; }
+.flaticon-add-button-with-plus-sign-in-a-circle:before { content: "\f11b"; }
+.flaticon-hourglass:before { content: "\f11c"; }
+.flaticon-minus-button:before { content: "\f11d"; }
+.flaticon-calendar:before { content: "\f11e"; }
+.flaticon-move-interface-symbol-of-four-arrows:before { content: "\f11f"; }
+.flaticon-menu:before { content: "\f120"; }
+.flaticon-prohibition-signal:before { content: "\f121"; }
+.flaticon-check:before { content: "\f122"; }
+    
+    $font-Flaticon-draw: "\f100";
+    $font-Flaticon-percentage: "\f101";
+    $font-Flaticon-ruler: "\f102";
+    $font-Flaticon-star: "\f103";
+    $font-Flaticon-calculator-with-six-buttons: "\f104";
+    $font-Flaticon-old-handphone: "\f105";
+    $font-Flaticon-web: "\f106";
+    $font-Flaticon-arrows-1: "\f107";
+    $font-Flaticon-arrows: "\f108";
+    $font-Flaticon-search: "\f109";
+    $font-Flaticon-battery: "\f10a";
+    $font-Flaticon-rectangular-shape-with-an-outline: "\f10b";
+    $font-Flaticon-musical-note: "\f10c";
+    $font-Flaticon-wheel: "\f10d";
+    $font-Flaticon-briefcase-outline-symbol: "\f10e";
+    $font-Flaticon-new-email-envelope-outline-symbol: "\f10f";
+    $font-Flaticon-menu-1: "\f110";
+    $font-Flaticon-bars-graphic: "\f111";
+    $font-Flaticon-photo-camera: "\f112";
+    $font-Flaticon-rewind-circular-button: "\f113";
+    $font-Flaticon-dollar-symbol: "\f114";
+    $font-Flaticon-fast-forward-circular-button: "\f115";
+    $font-Flaticon-clock: "\f116";
+    $font-Flaticon-pause-circular-button: "\f117";
+    $font-Flaticon-alarm: "\f118";
+    $font-Flaticon-play-circular-button: "\f119";
+    $font-Flaticon-sun: "\f11a";
+    $font-Flaticon-add-button-with-plus-sign-in-a-circle: "\f11b";
+    $font-Flaticon-hourglass: "\f11c";
+    $font-Flaticon-minus-button: "\f11d";
+    $font-Flaticon-calendar: "\f11e";
+    $font-Flaticon-move-interface-symbol-of-four-arrows: "\f11f";
+    $font-Flaticon-menu: "\f120";
+    $font-Flaticon-prohibition-signal: "\f121";
+    $font-Flaticon-check: "\f122";
